@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Console, sans-serif;
+    scroll-behavior: smooth;
 }
 @font-face {
     font-family: Console;
@@ -12,7 +13,6 @@ body {
     background-color: #333;
     color: #cacaca;
     overflow-x: hidden;
-    scroll-behavior: smooth;
     display: flex;
     flex-direction: column;
 }
@@ -88,6 +88,7 @@ nav a:hover:nth-child(2) {
     background-color: #333;
     border-radius: 30px;
     transition: 0.2s ease-in-out;
+    scroll-margin-top: 120px;
 }
 .CharacterAI > h1:hover {
     color: #1b1b1b;
@@ -172,5 +173,8 @@ nav a:hover:nth-child(2) {
     .JanitorAI > h1, .CharacterAI > h1 {
         font-size: 8vw;
         margin: -2vw 0 2vw 0 ;
+    }
+    .copy-btn {
+        font-size: 3vw;
     }
 }
