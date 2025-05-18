@@ -173,6 +173,7 @@ nav a:hover:nth-child(2) {
     .JanitorAI > h1, .CharacterAI > h1 {
         font-size: 8vw;
         margin: -2vw 0 2vw 0 ;
+        padding: 1vh 0 1vh 0;
     }
     .copy-btn {
         font-size: 3vw;
